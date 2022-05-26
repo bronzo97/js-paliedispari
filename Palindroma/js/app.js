@@ -28,9 +28,6 @@ function palindrome() {
 
 console.log(palindrome());
 
-
-// console.log(palindrome);
-
 // chiedere la parola all'utante
 // salvare la parola
 // scomporre la parola
