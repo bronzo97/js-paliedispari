@@ -13,6 +13,7 @@ const number = parseInt(prompt('Scegli un numero tra 1 e 5'));
 const randomNumber = Math.floor(Math.random() * 5) + 1;
 
 
+
 const sum = number + randomNumber;
 
 console.log(`Il tuo numero è: ${number}`);
@@ -21,10 +22,20 @@ console.log(`La somma è: ${sum}`);
 
 if (sum % 2 === 0) {
     console.log('numero pari'); 
+    var odd = `pari`;
 } else {
     console.log('numero dispari');
+    var even = `dispari`;
 }
 
 console.log(`hai scelto ${oddEven}`);
 
-if ()
+
+if (odd === oddEven){
+    console.log('hai vinto');
+} else if (even === oddEven) {
+    console.log('hai vinto');
+} else {
+    console.log('hai perso');
+}
+
